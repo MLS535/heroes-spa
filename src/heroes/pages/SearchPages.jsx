@@ -57,7 +57,7 @@ export const SearchPages = () => {
           Search a hero
           </div>
          <div className="alert alert-danger animate__animated animate__fadeIn" style={{display: showError ? '' : 'none' }}>
-           There's no results of <b>{q}</b>
+           We are sorry there's no results of <b>{q}</b>
          
            </div>
       
